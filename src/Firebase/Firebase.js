@@ -4,14 +4,13 @@ import { initializeApp } from "firebase/app";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyDythp1zFz3RLbbfbHxk0_SAugyTzvAzLs",
-  authDomain: "freelance1-153c8.firebaseapp.com",
-  projectId: "freelance1-153c8",
-  storageBucket: "freelance1-153c8.firebasestorage.app",
-  messagingSenderId: "989662314512",
-  appId: "1:989662314512:web:513ffb3cf54cce23a34a95"
+  apiKey: "AIzaSyCROFk46AXZwy6eY0E-MMBwU8DnrKKtTJY",
+  authDomain: "freelance-d35a6.firebaseapp.com",
+  projectId: "freelance-d35a6",
+  storageBucket: "freelance-d35a6.firebasestorage.app",
+  messagingSenderId: "560071002308",
+  appId: "1:560071002308:web:28d228134a4cf27289e191"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 // const analytics = getAnalytics(app);
